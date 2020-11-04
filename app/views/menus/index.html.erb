@@ -1,0 +1,4 @@
+<h1>Menu#index</h1>
+<% @menus.each do |i| %>
+  <%= link_to i.name, menu_path(i) %>
+<%end%>
